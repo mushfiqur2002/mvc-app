@@ -25,7 +25,7 @@ function NavBar() {
             <div className="flex gap-6">
                 <Button className="center-center bg-transparent border-none text-[14px]">
                     <span className="hidden md:flex">Menu</span>
-                    <LuAlignJustify className="size-5" />
+                    <LuAlignJustify className="size-6 md:size-5" />
                 </Button>
 
                 <Button className="hidden md:flex bg-transparent border-none text-[14px]">
@@ -35,7 +35,7 @@ function NavBar() {
             </div>
 
             <div className="relative ml-2 md:ml-0">
-                <h1 className="uppercase text-white text-[24px] flex relative">
+                <h1 className="uppercase text-white text-[22px] md:text-[24px] flex relative">
                     <span>Mavc</span>
                     <span className="absolute top-1 right-[-10px]">
                         <LuCreativeCommons size={8} />
