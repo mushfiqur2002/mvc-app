@@ -41,7 +41,7 @@ body {
 .gradient-button {
   background: #FFF;
   background: linear-gradient(180deg, rgba(255, 255, 255, .25) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 70%, rgba(255, 255, 255, .25) 100%);
-  padding: 1.40rem 2rem;
+  padding: 1.2rem 1.64rem;
 }
 
 .normal-button{

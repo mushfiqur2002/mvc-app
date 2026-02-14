@@ -19,23 +19,23 @@ function NavBar() {
 
     return (
         <div className={`w-full h-20 flex items-center justify-between md:flex-row flex-row-reverse px-8 fixed top-0 z-50 transition-all duration-300
-        ${scrolled ? "bg-[rgba(255,255,255,.25)] bg-blur-xl backdrop-blur-md shadow-lg" : "bg-transparent"}
+        ${scrolled ? "bg-[rgba(255,255,255,.19)] bg-blur-xl backdrop-blur-lg shadow-lg" : "bg-transparent"}
       `}
         >
             <div className="flex gap-6">
                 <Button className="center-center bg-transparent border-none text-[14px]">
                     <span className="hidden md:flex">Menu</span>
-                    <LuAlignJustify className="size-8 md:size-5" />
+                    <LuAlignJustify className="" />
                 </Button>
 
                 <Button className="hidden md:flex bg-transparent border-none text-[14px]">
                     <span>Tools</span>
-                    <LuSearch className="md:size-5" />
+                    <LuSearch className="" />
                 </Button>
             </div>
 
             <div className="relative ml-2 md:ml-0">
-                <h1 className="uppercase text-white text-[32px] flex relative">
+                <h1 className="uppercase text-white text-[24px] flex relative">
                     <span>Mavc</span>
                     <span className="absolute top-1 right-[-10px]">
                         <LuCreativeCommons size={8} />
