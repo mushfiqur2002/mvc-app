@@ -13,8 +13,8 @@ import { Link } from "react-router-dom"
 
 function FooterSection() {
     return (
-        <div className="flex center-between flex-col mt-12">
-            <div className="w-[90%] md:w-[80%] center-between flex-col md:flex-row py-4">
+        <div className="w-full flex center-between flex-col mt-12">
+            <div className="w-[90%] center-between flex-col md:flex-row py-4">
                 <div className="">
                     <h1 className="uppercase text-white text-[22px] flex relative">
                         <span>Mavc</span>
@@ -42,11 +42,11 @@ function FooterSection() {
                 </div>
             </div>
 
-            <div className="w-[90%] md:w-[80%] h-[1.25px] bg-[rgba(255,255,255,.20)]"></div>
+            <div className="w-[90%] h-[1.25px] bg-[rgba(255,255,255,.20)]"></div>
 
-            <div className="w-[90%] md:w[80%] center-center flex-col-reverse gap-4 text-white font-thin py-8">
+            <div className="w-[90%] center-center flex-col-reverse gap-4 text-white font-thin py-8">
                 <p className="text-xs text-[rgba(255,255,255,.5)]">Copyright © 2026 MACV. All Rights Reserved</p>
-                <div className="w-[90%] flex items-center justify-center flex-col-reverse md:flex-row md:justify-between gap-4">
+                <div className="w-full  flex items-center justify-center flex-col-reverse md:flex-row md:justify-between gap-4">
                     <div className="flex gap-4">
                         <Link to={'/'}>Privacy Policy</Link>
                         <Link to={'/'}>Terms of Use</Link>

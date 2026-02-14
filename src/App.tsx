@@ -7,7 +7,7 @@ import ShoppingSection from "./section/ShoppingSection"
 function App() {
 
   return (
-    <div className="relative flex flex-col overflow-hidden">
+    <div className="relative flex-col overflow-hidden center-center">
       <NavBar />
       <HeroSection />
       <FeatureSection />
