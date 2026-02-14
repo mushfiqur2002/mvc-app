@@ -14,7 +14,7 @@ function HeroSection() {
                     <h1 className="flex flex-col md:hidden text-[rgba(255,255,255,.75)] text-[36px] text-start font-medium">Effortlessly perform difficult aerial acrobatics with<br></br> <strong className="text-[rgba(255,255,255,.95)]">MAVC3 Pro</strong></h1>
 
                     <p className="text-gray-400 text-[18px] text-center md:text-start">New pilots can now perform spectacular flips, drifts, and other<br></br> captivating manoeuvres.</p>
-                    <div className="flex w-full items-center justify-center gap-4 pt-4 md:pt-0">
+                    <div className="flex w-full items-center justify-center md:justify-start gap-4 pt-4 md:pt-0">
                         <Button className="gradient-button rounded-full shadow-[0px_-5px_15px_0px_rgba(3,_150,_255,_1)]">Buy Now</Button>
                         <Button className="normal-button rounded-full">Watch Demo</Button>
                     </div>
