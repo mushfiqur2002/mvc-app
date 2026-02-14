@@ -86,7 +86,7 @@ function FeatureSection() {
                     <div className="w-full h-64 absolute bottom-0 md:-bottom-10 bg-black"></div>
                 </div>
 
-                <div className="md:w-[90%] md:h-[300px] cards z-20 flex gap-6 absolute mt-22 px-4 snap-none md:snap-x md:snap-mandatory flex lg:items-center lg:justify-center gap-4 overflow-x-auto lg:overflow-visible scrollbar-hide">
+                <div className="md:w-[90%] md:h-[300px] cards z-20 flex gap-6 absolute mt-12 md:mt-22 px-4 snap-none md:snap-x md:snap-mandatory flex lg:items-center lg:justify-center gap-4 overflow-x-auto lg:overflow-visible scrollbar-hide">
                     {cardsData.map((card, index) => (
                         <div
                             key={index}
