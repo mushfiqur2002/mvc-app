@@ -83,7 +83,7 @@ function FeatureSection() {
                     <div className="absolute inset-0 rounded-[50%] bg-[radial-gradient(ellipse_at_top,rgba(120,180,255,0.9)_0%,rgba(180,220,255,.5)_35%,rgba(120,180,255,0.3)_55%,rgba(0,0,0,0)_100%)] blur-lg"></div>
                     {/* Dark mask */}
                     <div className="absolute inset-0 mt-[12px] rounded-[50%] bg-black"></div>
-                    <div className="w-full h-64 absolute -bottom-10 bg-black"></div>
+                    <div className="w-full h-64 absolute bottom-0 md:-bottom-10 bg-black"></div>
                 </div>
 
                 <div className="md:w-[90%] md:h-[300px] cards z-20 flex gap-6 absolute mt-22 px-4 snap-none md:snap-x md:snap-mandatory flex lg:items-center lg:justify-center gap-4 overflow-x-auto lg:overflow-visible scrollbar-hide">
