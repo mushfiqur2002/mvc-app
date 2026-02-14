@@ -22,14 +22,14 @@ function ShoppingSection() {
                 {/* side 01 */}
                 <div className="w-[365px] h-[365px] flex items-center justify-center relative">
                     <div className="w-[750px] h-[750px] absolute -top-[75%] -left-[60%] rounded-full inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,.22)_0%,rgba(0,0,0,0)_55%)] blur-2xl"></div>
-                    <div className="w-[350px] h-[350px] -left-[100px] -top-[15px] absolute">
+                    <div className="w-[250px] md:w-[350px] h-[350px] -left-[80px] md:-left-[100px] top-[35px] md:-top-[15px] absolute">
                         <img src={sideImage1} className="object-contain" />
                     </div>
                 </div>
 
                 <div className="w-[365px] h-[365px] flex items-center justify-center relative">
                     <div className="w-[750px] h-[750px] absolute -top-[90%] -left-[35%] rounded-full inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,.22)_0%,rgba(0,0,0,0)_55%)] blur-2xl"></div>
-                    <div className="w-[350px] h-[350px] -right-[120px] -top-[65px] absolute">
+                    <div className="w-[250px] md:w-[350px] h-[350px] -right-[100px] md:-right-[120px] -top-[45px] md:-top-[65px] absolute">
                         <img src={sideImage2} className="object-contain" />
                     </div>
                 </div>

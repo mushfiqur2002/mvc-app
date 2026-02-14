@@ -3,28 +3,28 @@ import { LuAlignJustify, LuCreativeCommons, LuSearch } from "react-icons/lu";
 
 function NavBar() {
     return (
-        <div className="w-full h-20 center-between px-6 absolute top-0 z-50">
+        <div className="w-full h-20 flex items-center justify-between md:flex-row flex-row-reverse px-6 absolute top-0 z-50">
             <div className="flex gap-6">
                 <Button className="center-center bg-transparent border-none text-[14px]">
-                    Menu
-                    <LuAlignJustify />
+                    <span className="hidden md:flex">Menu</span>
+                    <LuAlignJustify className="size-8 md:size-5" />
                 </Button>
 
-                <Button className="center-center bg-transparent border-none text-[14px]">
-                    Tools
-                    <LuSearch />
+                <Button className="hidden md:flex bg-transparent border-none text-[14px]">
+                    <span>Tools</span>
+                    <LuSearch className="md:size-5" />
                 </Button>
             </div>
-            <div>
-                <h1 className="uppercase text-white text-[22px] flex relative">
+            <div className="relative ml-2 md:ml-0">
+                <h1 className="uppercase text-white text-[32px] flex relative">
                     <span>Mavc</span>
                     <span className="absolute top-1 right-[-10px]">
                         <LuCreativeCommons size={8} />
                     </span>
                 </h1>
             </div>
-            <div>
-                <Button className="text-[14px] rounded-full gradient-button">
+            <div className="hidden md:flex">
+                <Button className="text-[12px] md:text-[14px] rounded-full gradient-button">
                     Buy Now
                 </Button>
             </div>
