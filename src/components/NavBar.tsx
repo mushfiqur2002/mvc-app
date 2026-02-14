@@ -19,7 +19,7 @@ function NavBar() {
 
     return (
         <div className={`w-full h-20 flex items-center justify-between md:flex-row flex-row-reverse px-8 fixed top-0 z-50 transition-all duration-300
-        ${scrolled ? "bg-black/80 backdrop-blur-md shadow-lg" : "bg-transparent"}
+        ${scrolled ? "bg-[rgba(255,255,255,.25)] bg-blur-xl backdrop-blur-md shadow-lg" : "bg-transparent"}
       `}
         >
             <div className="flex gap-6">
