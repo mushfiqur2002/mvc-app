@@ -86,13 +86,12 @@ function FeatureSection() {
                     <div className="w-full h-64 absolute bottom-0 md:-bottom-10 bg-black"></div>
                 </div>
 
-                <div className="md:w-[90%] md:h-[300px] cards z-20 flex gap-6 absolute mt-12 md:mt-22 px-4 snap-none md:snap-x md:snap-mandatory flex lg:items-center lg:justify-center gap-4 overflow-x-auto lg:overflow-visible scrollbar-hide">
+                {/* <div className="md:w-[90%] md:h-[300px] z-20 flex gap-6 absolute mt-12 md:mt-20 px-4 snap-none md:snap-x md:snap-mandatory lg:items-center lg:justify-center overflow-x-auto lg:overflow-visible scrollbar-hide"> */}
+                <div className="w-[90%] md:h-[300px] z-20 flex gap-6 absolute mt-6 md:mt-20 px-4 overflow-x-auto lg:overflow-visible snap-x snap-mandatory lg:items-center lg:justify-center scrollbar-hide">
                     {cardsData.map((card, index) => (
                         <div
                             key={index}
-                            className={`card w-[300px] h-[220px] bg-gray-500 rounded-lg relative overflow-hidden snap-center flex-shrink-0 ${card.offset ? "top-0 md:top-[-50px]" : ""
-                                }`}
-                        >
+                            className={`card w-[300px] h-[220px] bg-gray-500 rounded-lg relative overflow-hidden snap-center flex-shrink-0 ${card.offset ? "top-0 md:top-[-50px]" : ""}`}>
                             <div className="image absolute w-full h-full">
                                 <img
                                     className="w-full h-full object-cover"
