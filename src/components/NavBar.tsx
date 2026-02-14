@@ -25,12 +25,12 @@ function NavBar() {
             <div className="flex gap-6">
                 <Button className="center-center bg-transparent border-none text-[14px]">
                     <span className="hidden md:flex">Menu</span>
-                    <LuAlignJustify className="" />
+                    <LuAlignJustify className="size-5" />
                 </Button>
 
                 <Button className="hidden md:flex bg-transparent border-none text-[14px]">
                     <span>Tools</span>
-                    <LuSearch className="" />
+                    <LuSearch className="size-5" />
                 </Button>
             </div>
 
