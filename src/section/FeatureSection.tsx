@@ -145,22 +145,22 @@ function FeatureSection() {
                 <div className="mt-12 relative center-center bg-[linear-gradient(0deg,rgba(255,255,255,.1)0%,rgba(0,0,0,1)63%)] w-full">
                     <div className="relative w-[400px] h-[200px] md:w-[800px] md:h-[350px] overflow-hidden mx-auto">
                         {/* Ring 1 */}
-                        <div className="relative w-[400px] h-[400px] rounded-full">
+                        <div className="relative w-[400px] h-[400px] md:w-[800px] md:h-[800px] rounded-full">
                             <div className="absolute inset-0 rounded-full p-[1px] bg-[linear-gradient(90deg,rgba(0,0,0,1)_0%,rgba(255,255,255,1)_12%,rgba(255,255,255,1)_84%,rgba(0,0,0,1)_100%)]">
                                 <div className="w-full h-full rounded-full bg-black">
                                     <div className="w-full h-full rounded-full bg-[linear-gradient(0deg,rgba(255,255,255,.1)0%,rgba(0,0,0,1)25%,rgba(0,0,0,1)35%,rgba(255,255,255,.1)55%,rgba(0,0,0,1)75%,rgba(0,0,0,1)100%)] center-center">
                                         {/* Ring 2 */}
-                                        <div className="relative w-[300px] h-[300px] rounded-full">
+                                        <div className="relative w-[300px] h-[300px] md:w-[700px] md:h-[700px] rounded-full">
                                             <div className="absolute inset-0 rounded-full p-[1px] bg-[linear-gradient(90deg,rgba(0,0,0,1)_0%,rgba(255,255,255,1)_12%,rgba(255,255,255,1)_84%,rgba(0,0,0,1)_100%)]">
                                                 <div className="w-full h-full rounded-full bg-black">
                                                     <div className="w-full h-full rounded-full bg-[linear-gradient(0deg,rgba(255,255,255,.1)0%,rgba(0,0,0,1)5%,rgba(0,0,0,1)25%,rgba(255,255,255,.15)55%,rgba(0,0,0,1)75%,rgba(0,0,0,1)100%)] center-center">
                                                         {/* Ring 3 */}
-                                                        <div className="relative w-[200px] h-[200px] rounded-full">
+                                                        <div className="relative w-[200px] h-[200px] md:w-[560px] md:h-[560px] rounded-full">
                                                             <div className="absolute inset-0 rounded-full p-[1px] bg-[linear-gradient(90deg,rgba(0,0,0,1)_0%,rgba(255,255,255,1)_12%,rgba(255,255,255,1)_84%,rgba(0,0,0,1)_100%)]">
                                                                 <div className="w-full h-full rounded-full bg-black center-center">
                                                                     <div className="w-full h-full rounded-full bg-[linear-gradient(0deg,rgba(255,255,255,.1)0%,rgba(0,0,0,1)5%,rgba(0,0,0,1)25%,rgba(255,255,255,.15)55%,rgba(0,0,0,1)75%,rgba(0,0,0,1)100%)] center-center">
                                                                         {/* Ring 4 */}
-                                                                        <div className="relative w-[100px] h-[100px] rounded-full">
+                                                                        <div className="relative w-[100px] h-[100px] md:w-[410px] md:h-[410px] rounded-full">
                                                                             <div className="absolute inset-0 rounded-full p-[1px] bg-[linear-gradient(90deg,rgba(0,0,0,1)_0%,rgba(255,255,255,1)_12%,rgba(255,255,255,1)_84%,rgba(0,0,0,1)_100%)]">
                                                                                 <div className="w-full h-full rounded-full bg-black">
                                                                                     <div className="w-full h-full rounded-full bg-[linear-gradient(0deg,rgba(255,255,255,.1)0%,rgba(0,0,0,1)5%,rgba(0,0,0,1)25%,rgba(255,255,255,.15)55%,rgba(0,0,0,1)75%,rgba(0,0,0,1)100%)] center-center"></div>
